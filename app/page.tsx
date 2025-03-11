@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { TextEffect } from "@/components/motion-primitives/text-effect"; 
 
 export default function Home() {
