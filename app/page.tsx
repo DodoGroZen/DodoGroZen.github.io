@@ -53,9 +53,9 @@ export default function Home() {
       {/* Chi sono section */}
       <main id="chi-sono" className="flex w-full md:w-3/4 lg:w-1/2 flex-col justify-center gap-4 items-center bg-background py-4">
         <motion.div
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
-          className="w-full flex justify-center items-center"
+          initial={{ opacity: 0, translateX: -300 }}
+          animate={{ opacity: 1, scale: 1, transition: { duration: 1 }, translateX:0 }}
+          className="w-full h-[70vh] flex justify-center items-center"
         >
           <div className="bg-muted rounded-2xl md:w-[50vw]  flex justify-center overflow-hidden">
             <Image
